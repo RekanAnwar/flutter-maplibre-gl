@@ -48,6 +48,22 @@ android/app/debug
 android/app/profile
 android/app/release
 
+# Android build artifacts
+**/android/.gradle/
+**/android/build/
+**/android/local.properties
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+
+# iOS build artifacts
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Podfile.lock
+
 # Misc
 GeneratedPluginRegistrant.swift
 
