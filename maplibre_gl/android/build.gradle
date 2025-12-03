@@ -51,6 +51,11 @@ android {
     }
     dependencies {
         compileOnly 'org.maplibre.gl:android-sdk:11.3.0'
+
+        // Explicit runtime deps that the plugin & native bindings need
+        implementation 'org.maplibre.gl:android-geojson:5.7.0'      // contains org.maplibre.geojson.*
+        implementation 'org.maplibre.gl:android-gestures:0.7.0'     // contains org.maplibre.android.gestures.*
+        implementation 'com.google.code.gson:gson:2.10.1'           // com.google.gson.*
         
         // implementation 'org.maplibre.gl:android-sdk:11.13.5'
         api files('libs/MapLibreAndroid-opengl-debug.aar')
