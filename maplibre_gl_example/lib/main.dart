@@ -23,11 +23,13 @@ import 'annotation_order_maps.dart';
 import 'click_annotations.dart';
 import 'custom_marker.dart';
 import 'full_map.dart';
+import 'heatmap.dart';
 import 'layer.dart';
 import 'layer_manipulation.dart';
 import 'line.dart';
 import 'map_ui.dart';
 import 'move_camera.dart';
+import 'multi_style_switch.dart';
 import 'offline_regions.dart';
 import 'page.dart';
 import 'place_batch.dart';
@@ -37,7 +39,6 @@ import 'place_source.dart';
 import 'place_symbol.dart';
 import 'scrolling_map.dart';
 import 'sources.dart';
-import 'multi_style_switch.dart';
 
 final List<ExamplePage> _allPages = <ExamplePage>[
   const MapUiPage(),
@@ -55,6 +56,7 @@ final List<ExamplePage> _allPages = <ExamplePage>[
   const LayerManipulationPage(),
   const PlaceCirclePage(),
   const PlaceFillPage(),
+  const HeatmapPage(),
   const ScrollingMapPage(),
   const OfflineRegionsPage(),
   const AnnotationOrderPage(),
